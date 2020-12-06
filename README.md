@@ -10,3 +10,5 @@ The code for this site was refactored to improve accessibility and functionality
 
 ## Preview
 Because this site is currently not responsive, it is best viewed on a standard, 13-inch desktop window.
+
+<img src="./screenshots/screensho1.png" width=100%>
