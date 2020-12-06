@@ -14,7 +14,7 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Removed multiple class selectors to reduce redundancy */
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -23,11 +23,7 @@ h1 {
 .seo {
     color: #d9dcd6;
 }
-
-ul {
-    list-style-type: none;
-}
-
+/* Navigation bar removes the unordered list and improves accessibility */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,11 +31,6 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20px;
     float: right;
-}
-
-li {
-    display: inline-block;
-    margin-left: 25px;
 }
 
 a {
@@ -50,11 +41,10 @@ a {
 a:hover {
     color: blue
 }
-
+/* Made image it's own element and not a style property */
 #hero {
     width: 100%;
     margin-bottom: 25px;
-
 }
 
 .services {
@@ -74,7 +64,7 @@ a:hover {
     margin-left: 25px;
     max-height: 200px;
 }
-
+/* Specific id's for section formatting */
 #search-engine-optimization, #online-reputation-management, #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -123,7 +113,7 @@ a:hover {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Consolidated formatting using class and tag selectors */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
